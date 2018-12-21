@@ -14,8 +14,7 @@ namespace DateMaster.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            // return new string[] { "value1", "value2" };
-            throw new Exception("Test Exception");
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
